@@ -23,7 +23,7 @@ const ApplicationComponent = ({ data }) => {
             <Dropdown data={data} />
           </div>
           <div className="push">
-            <Button title="Create Server" classname="add-btn" />
+            <Button title="Create Server" btnClass="add-btn" />
           </div>
         </div>
         <div className="table">
@@ -60,7 +60,7 @@ const ApplicationComponent = ({ data }) => {
                   <td className="center">10.1.101.53</td>
 
                   <td>
-                    <Button title="Edit" classname="edit-btn" />
+                    <Button title="Edit" btnClass="edit-btn" />
 
                     <Option />
                   </td>
@@ -77,7 +77,7 @@ const ApplicationComponent = ({ data }) => {
                   <td className="center">End point</td>
                   <td className="center">10.1.101.53</td>
                   <td>
-                    <Button title="Edit" classname="edit-btn" />
+                    <Button title="Edit" btnClass="edit-btn" />
 
                     <Option />
                   </td>
@@ -94,7 +94,7 @@ const ApplicationComponent = ({ data }) => {
                   <td className="center">End point</td>
                   <td className="center">10.1.101.53</td>
                   <td>
-                    <Button title="Edit" classname="edit-btn" />
+                    <Button title="Edit" btnClass="edit-btn" />
 
                     <Option />
                   </td>
@@ -111,7 +111,7 @@ const ApplicationComponent = ({ data }) => {
                   <td className="center">End point</td>
                   <td className="center">10.1.101.53</td>
                   <td>
-                    <Button title="Edit" classname="edit-btn" />
+                    <Button title="Edit" btnClass="edit-btn" />
 
                     <Option />
                   </td>
@@ -128,7 +128,7 @@ const ApplicationComponent = ({ data }) => {
                   <td className="center">End point</td>
                   <td className="center">10.1.101.53</td>
                   <td>
-                    <Button title="Edit" classname="edit-btn" />
+                    <Button title="Edit" btnClass="edit-btn" />
 
                     <Option />
                   </td>

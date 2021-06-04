@@ -38,7 +38,8 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              classname="nav-btn"
+              style={{ height: 20, padding: "15px 0" }}
+              className="nav-btn"
               to="server"
               activeClassName="active-tab"
             >
@@ -63,7 +64,7 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-        <Button title="Check Health Status" classname="nav-btn" />
+        <Button title="Check Health Status" btnClass="nav-btn" />
       </div>
     </>
   );

@@ -127,7 +127,7 @@ const HomeComponent = ({ data }) => {
                     <span style={{ marginLeft: 20 }}>Healthy</span>
                   </td>
                   <td>
-                    <Button title="View Result" classname="edit-btn" />
+                    <Button title="View Result" btnClass="edit-btn" />
                     <Option />
                   </td>
                 </tr>
@@ -143,10 +143,7 @@ const HomeComponent = ({ data }) => {
                     <img src="images/triangle.svg" alt="warning logo" />
                   </td>
                   <td>
-                    <Button
-                      title="View Result"
-                      classname="edit-btn"
-                    />
+                    <Button title="View Result" btnClass="edit-btn" />
                     <Option />
                   </td>
                 </tr>
@@ -162,10 +159,7 @@ const HomeComponent = ({ data }) => {
                     <div className="checkmark" />
                   </td>
                   <td>
-                    <Button
-                      title="View Result"
-                     classname="edit-btn"
-                    />
+                    <Button title="View Result" btnClass="edit-btn" />
                     <Option />
                   </td>
                 </tr>
@@ -181,10 +175,7 @@ const HomeComponent = ({ data }) => {
                     <div className="checkmark" />
                   </td>
                   <td>
-                    <Button
-                      title="View Result"
-                     classname="edit-btn"
-                    />
+                    <Button title="View Result" btnClass="edit-btn" />
                     <Option />
                   </td>
                 </tr>
@@ -200,10 +191,7 @@ const HomeComponent = ({ data }) => {
                     <div className="checkmark" />
                   </td>
                   <td>
-                    <Button
-                      title="View Result"
-                     classname="edit-btn"
-                    />
+                    <Button title="View Result" btnClass="edit-btn" />
                     <Option />
                   </td>
                 </tr>

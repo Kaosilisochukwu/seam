@@ -1,8 +1,8 @@
 import React from "react";
 import "./Atom.css";
 
-const Button = ({ title, classname }) => {
-  return <button className={`button ${classname}`}>{title}</button>;
+const Button = ({ title, btnClass }) => {
+  return <button className={`button ${btnClass}`}>{title}</button>;
 };
 
 export default Button;
