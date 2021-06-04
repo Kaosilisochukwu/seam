@@ -1,0 +1,76 @@
+.button {
+  background-color: #49d3ff;
+  color: #1b1464;
+  border: none;
+  box-shadow: 0px 1px 2px #00000029;
+  align-self: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tag {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  margin: 1.2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  margin: 0;
+}
+.select p {
+  margin: 0;
+}
+.edit-btn {
+  width: 123px;
+  height: 32px;
+  margin-right: 25px;
+}
+.add-btn {
+  width: 195px;
+  height: 56px;
+}
+.nav-btn {
+  height: 56px;
+  width: 256px;
+}
+.text-field {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 140px;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.display {
+  background-color: #fff;
+}
+.select-container {
+  position: relative;
+  height: fit-content;
+}
+
+.select-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 10;
+  border: 1px solid black;
+}
+
+.select-dropdown-text {
+  padding: 0 1rem 0.5rem;
+}
+
+@media only screen and (max-width: 682px) {
+  .nav-btn {
+    width: 45%;
+  }
+}
